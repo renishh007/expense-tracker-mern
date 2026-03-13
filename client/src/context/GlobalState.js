@@ -65,7 +65,7 @@ export const GlobalProvider = ({ children }) => {
         type: "ADD_TRANSACTION",
         payload: res.data.data,
       });
-      // Catch block ma aa rite lakho
+
     } catch (err) {
       dispatch({
         type: "TRANSACTION_ERROR",
